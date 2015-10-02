@@ -1,4 +1,5 @@
-CPEN 221 / Fall 2015: Machine Problem 2 -- Validating HTML
+CPEN 221 / Fall 2015: Machine Problem 2
+Validating HTML
 ===
 
 ### Logistics
