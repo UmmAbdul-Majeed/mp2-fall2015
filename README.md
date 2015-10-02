@@ -189,7 +189,7 @@ An `HtmlTag` object corresponds to a tag such as `<p>` or `</table>`. You do not
 + `public boolean matches(HtmlTag other)`:Returns true if this tag and the given tag have the same element but opposite types, such as `<body>` and `</body>`.
 + `public String toString()`:	Returns a string representation of this HTML tag, such as `"<p>"` or `"</table>"`.There may be some confusion about the difference between an `HtmlTag` object and a `String`. An `HtmlTag` is related to a `String` in that it stores an element as a `String` inside of it; and in that a tag has a natural representation as a `String` by surrounding its element with `<` and `>` brackets. But the `HtmlTag` object is more useful than a bare `String` in that it has the methods above. So you can ask it if it is an opening/closing tag or whether it matches another tag without needing to manually trim away `<` and `>` characters. It may seem like additional work to have to figure out how `HtmlTag` objects work, when `Strings` are more familiar. But, part of becoming a mature software developer is becoming comfortable with pre-written code that is provided to you by others, and using it to solve part of a larger overall task.
 
-You are also provided with some sample HTML files and the expected output for these files in the `SampleData` directory.
+You are also provided with some sample HTML files and the expected output for these files in the `testcases` directory.
 
 ### Development Strategy and Hints
 
