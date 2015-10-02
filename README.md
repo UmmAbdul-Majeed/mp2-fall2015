@@ -217,4 +217,12 @@ We suggest the following development strategy for solving this program:
 
 ### Submission
 
-Complete the implementation as described. Add comments and specifications. This is how you become proficient at these activities. You should submit your work by committing all code to your assigned GitHub repository in a branch called `mp2`.
+Complete the implementation as described. Add comments and specifications. This is how you become proficient at these activities. 
+
++ You should submit your work by committing all code to your assigned GitHub repository in a branch called `mp2`. 
++ You should also submit a PDF file to the appropriate Gradescope assignment with the following information: 
+	+ your name, 
+	+ your GitHub repository, 
+	+ and the number of hours you took to complete this machine problem.
+	
+**The deadline for submitting your work is October 9, 6:00 p.m.**
