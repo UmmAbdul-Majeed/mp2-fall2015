@@ -3,7 +3,7 @@ CPEN 221 / Fall 2015: Machine Problem 2 -- Validating HTML
 
 ### Logistics
 
-+ This is a week-long machine problem, and will be October 9 by 6:00 p.m. 
++ This is a week-long machine problem, and will be due October 9 by 6:00 p.m. 
 + This MP will be worth 3% of your final grade, and is an individual assignment.
 
 ### Background
