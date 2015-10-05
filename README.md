@@ -42,7 +42,7 @@ Below is an example of a valid HTML file, with its tags in bold. `<!-- and -->` 
 </html>
 ```
 
-In this lab exercise, you will develop a tool to examine HTML files and determine if it represents a valid sequence of tags. Your validator will use stacks and queues to match tags. We will provide starter code that will read HTML pages from files and break them apart into tags for you; you must implement the functionality to match tags.
+In this machine problem, you will develop a tool to examine HTML files and determine if it represents a valid sequence of tags. Your validator will use stacks and queues to match tags. We will provide starter code that will read HTML pages from files and break them apart into tags for you; you must implement the functionality to match tags.
 
 ### Task 1: Implementing a Stack
 
@@ -201,7 +201,7 @@ We suggest the following development strategy for solving this program:
 + Write the `removeAll( )` method.  
 + Write an initial version of the validate algorithm described previously that assumes the page is valid and does not worry about errors. Get the overall algorithm, output, and indentation working for valid HTML. 
 + Add the `validate` code that looks for errors and prints appropriate error messages, as described previously. 
-+ `null`: The value null is a special value that indicates the lack of an object; a reference that does not refer to any object. When a given method's spec says, "if foo is null, do X," it means that you should test: `if (foo == null) { X }`. In particular, a `null` queue is not the same as an empty queue; a `null` string is not the same as the empty string, `“”`; and a `null HtmlTag` is not the same as an `HtmlTag` with a `null` element (which will not occur anyway, since `HtmlTag` throws an exception if you try to create one with a null element).
++ `null`: The value `null` is a special value that indicates the lack of an object; a reference that does not refer to any object. When a given method's spec says, "if foo is null, do X," it means that you should test: `if (foo == null) { X }`. In particular, a `null` queue is not the same as an empty queue; a `null` string is not the same as the empty string, `“”`; and a `null HtmlTag` is not the same as an `HtmlTag` with a `null` element (which will not occur anyway, since `HtmlTag` throws an exception if you try to create one with a null element).
 + The `validate` method is the toughest. It can be hard to handle all of the errors properly and to get the indentation just right. Remember that the indentation increases when an opening tag is seen, and the indentation decreases when a valid expected closing tag is seen. Those should be the only two times you ever need to adjust your indentation.
 + Avoid redundancy and repeated logic as much as possible in your code.
 + Properly encapsulate your objects by making fields private. Avoid unnecessary fields; use fields to store important data of your objects but not to store temporary values only used within a single method. Initialize fields in constructors only.
